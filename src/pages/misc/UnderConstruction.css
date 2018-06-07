@@ -1,0 +1,24 @@
+.background {
+  background: linear-gradient(180deg, #fff, #dbdbdb) repeat-x;
+}
+
+.warningContent {
+  position:absolute;
+  top:25%;
+  width:100%;
+  text-align:center;
+  margin:0;
+}
+
+.body body {
+  background: #EEEEF4;
+  color:#999;
+}
+
+.h1 h1{
+  font-weight:100;
+  font-size:27pt;
+  color:#E43;
+}
+
+.p p{font-weight:300;}
