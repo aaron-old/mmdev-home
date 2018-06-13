@@ -1,0 +1,15 @@
+/**
+    White Backgrounds w/ Opacity's.
+ */
+@value bgWhite: #fff !important;
+@value bgWhiteOpacity0:   rgba(255, 255, 255, 0);
+@value bgWhiteOpacity005: rgba(255,255, 255, 0.05);
+@value bgWhiteOpacity01:  rgba(255, 255, 255, 0.1);
+@value bgWhiteOpacity02:  rgba(255, 255, 255, 0.2);
+@value bgWhiteOpacity03:  rgba(255, 255, 255, 0.3);
+@value bgWhiteOpacity04:  rgba(255, 255, 255, 0.4);
+@value bgWhiteOpacity05:  rgba(255, 255, 255, 0.5);
+@value bgWhiteOpacity06:  rgba(255, 255, 255, 0.6);
+@value bgWhiteOpacity07:  rgba(255, 255, 255, 0.7);
+@value bgWhiteOpacity08:  rgba(255, 255, 255, 0.8);
+@value bgWhiteOpacity09:  rgba(255, 255, 255, 0.9);

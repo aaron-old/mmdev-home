@@ -1,8 +1,13 @@
 import React from 'react';
-import { Container } from 'reactstrap';
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
+import cn from 'classnames';
+import styles from 'bootstrap/dist/css/bootstrap.css';
 const Layout = props => (
-  <Container fluid className="main">
+  <div className={cn('main', styles['container-fluid'])}>
+    <Header/>
     {props.children}
-  </Container>
+    <Footer/>
+  </div>
 );
 export default Layout;

@@ -1,0 +1,13 @@
+/* Colors
+ */
+
+@value white: #fff !important;
+@value whiteOpacity01: rgba(255, 255, 255, 0.1) !important;
+@value whiteOpacity02: rgba(255, 255, 255, 0.2) !important;
+@value whiteOpacity03: rgba(255, 255, 255, 0.3) !important;
+@value whiteOpacity05: rgba(255, 255, 255, 0.5) !important;
+@value whiteOpacity06: rgba(255, 255, 255, 0.6) !important;
+@value whiteOpacity07: rgba(255, 255, 255, 0.7) !important;
+@value whiteOpacity075: rgba(255, 255, 255, 0.75) !important;
+@value whiteOpacity08: rgba(255, 255, 255, 0.8) !important;
+@value whiteOpacity09: rgba(255, 255, 255, 0.9) !important;
