@@ -1,15 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import cn from 'classnames';
+import buttonCss from './SocialButton.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
+/**
+ * @summary Used to create social button given an identifier and url.
+ * @param props
+ * @param props.shape
+ * @param props.size
+ * @param props.type
+ * @param props.fontSize
+ * @param props.url
+ * @returns {SocialButton}
+ * @constructor
+ */
 const SocialButton = (props) => {
 
-  let iconClass = ['fas'];
 
   return (
-    <a href={props.url}>
-      <i></i>
+    <a href={props.url} className={buttonCss.socialButton}>
+      <span className={buttonCss.socialButtonIcon}>
+        <FontAwesomeIcon icon={['fab', `${props.type}`]} size="2x"/>
+      </span>
     </a>
   )
 };

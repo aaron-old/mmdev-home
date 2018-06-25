@@ -1,14 +1,27 @@
 @value colors: "../../assets/variables/colors.css";
 @value whiteOpacity09 from colors;
-
+@value whiteOpacity03 from colors;
 .footer {
     color: whiteOpacity09;
     text-align: center;
-    padding-top: 4.28571rem;
-    padding-bottom: 2.85714rem
+    padding-top: 1.28571rem;
+}
+
+.section {
+    display: inline-block !important;
 }
 
 .imgAnchor {
     width: 200px;
-    margin-bottom: 2.14286rem !important;
+    display:block !important;
+}
+
+.rights {
+    font-weight:400;
+    opacity: 0.5!important;
+}
+
+.row {
+    background-color: whiteOpacity03;
+
 }

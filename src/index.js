@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import registerServiceWorker from "./util/registerServiceWorker";
+import "./util/initIcons";
 
 render(
   <BrowserRouter>
