@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PageRouter from '../components/router/PageRouter';
-import UnderConstruction from './misc/UnderConstruction';
+import UnderConstruction from './misc/construction/UnderConstruction';
 class Page extends Component {
   render() {
     let construction = process.env.REACT_APP_CONSTRUCTION;

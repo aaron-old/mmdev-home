@@ -1,4 +1,3 @@
 import React from 'react';
-import styles from './Home.css';
-const Home = () => <div className={styles.body}>home</div>;
+const Home = () => <div>home</div>;
 export default Home;
