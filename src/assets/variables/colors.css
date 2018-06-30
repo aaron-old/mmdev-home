@@ -12,5 +12,13 @@
 @value whiteOpacity08: rgba(255, 255, 255, 0.8) !important;
 @value whiteOpacity09: rgba(255, 255, 255, 0.9) !important;
 
+@value black #000 !important;
+@value blackOpacity01: rgba(0, 0, 0, 0.1) !important;
+@value blackOpacity03: rgba(0, 0, 0, 0.3) !important;
+@value blackOpacity05: rgba(0, 0, 0, 0.5) !important;
+@value blackOpacity06: rgba(0, 0, 0, 0.6) !important;
+@value blackOpacity07: rgba(0, 0, 0, 0.7) !important;
+@value blackOpacity08: rgba(0, 0, 0, 0.8) !important;
+@value blackOpacity09: rgba(0, 0, 0, 0.9) !important;
 
 @value mustard: #ffbc00;
