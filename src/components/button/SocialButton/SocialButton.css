@@ -1,4 +1,4 @@
-@value colors: "../../assets/variables/colors.css";
+@value colors: "../../../assets/variables/colors.css";
 @value mustard from colors;
 
 .socialButtonIcon {

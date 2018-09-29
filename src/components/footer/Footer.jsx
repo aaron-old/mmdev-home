@@ -3,7 +3,7 @@ import cn from 'classnames';
 import styles from 'bootstrap/dist/css/bootstrap.css';
 import footerStyles from './Footer.css';
 import mustardTitle from '../../assets/img/mustard-title-v4.png';
-import SocialButton from "../button/SocialButton";
+import SocialButton from "../button/SocialButton/SocialButton";
 
 let classes = [
   styles['fixed-bottom'],

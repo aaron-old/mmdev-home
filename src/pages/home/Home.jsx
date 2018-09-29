@@ -1,3 +1,7 @@
 import React from 'react';
-const Home = () => <div>home</div>;
+import cn from 'classnames';
+import styles from 'bootstrap/dist/css/bootstrap.css';
+
+
+const Home = () => <div className={cn([styles.container])}> </div>;
 export default Home;

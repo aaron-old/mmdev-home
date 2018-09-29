@@ -15,8 +15,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
  * @constructor
  */
 const SocialButton = (props) => {
-
-
   return (
     <a href={props.url} className={buttonCss.socialButton}>
       <span className={buttonCss.socialButtonIcon}>

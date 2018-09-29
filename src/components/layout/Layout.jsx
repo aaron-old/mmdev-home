@@ -1,13 +1,14 @@
-import React from 'react';
-import Header from '../header/Header';
-import Footer from '../footer/Footer';
-import cn from 'classnames';
-import styles from 'bootstrap/dist/css/bootstrap.css';
+import React from "react";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+import styles from "bootstrap/dist/css/bootstrap.css";
 const Layout = props => (
-  <div className={cn('main', styles['container-fluid'])}>
-    <Header/>
-    {props.children}
-    <Footer/>
-  </div>
+  <section className="main">
+    <Header />
+    <section id="content" className={styles.container}>
+      {props.children}
+    </section>
+    <Footer />
+  </section>
 );
 export default Layout;
