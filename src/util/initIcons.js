@@ -6,4 +6,7 @@ import {
   faTwitter,
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
-library.add(fab, faFacebook, faTwitter, faGithub);
+
+import { fas, faBars } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab, faFacebook, faTwitter, faGithub, fas, faBars);
