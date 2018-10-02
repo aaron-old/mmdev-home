@@ -1,42 +1,45 @@
 @import '../../_variables.scss';
 .footer {
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  color: $whiteOpacity09;
-  position: fixed;
-  width: 100%;
-  background-color: $blackOpacity09;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: $whiteOpacity09;
+    position: fixed;
+    width: 100%;
+    background-color: $blackOpacity09;
 }
 
 .section {
-  display: grid;
-  grid-auto-flow: row;
+    display: grid;
+    grid-auto-flow: row;
+    hr {
+        width: 80%;
+    }
 }
 
 .logo {
-  grid-row: 1/2;
-  display: block;
-  margin: auto;
-  padding-top: 0.4rem;
+    grid-row: 1/2;
+    display: block;
+    margin: auto;
+    padding-top: 0.4rem;
 }
 
 .imgAnchor {
-  width: 250px;
-  float: left;
+    width: 250px;
+    float: left;
 }
 
 .social {
-  grid-row: 2/2;
-  li {
-    display: inline;
-    margin: 0.7rem;
-    list-style: none;
-  }
-  a {
-    color: $white;
-    :hover {
-      color: $mustard;
+    grid-row: 2/2;
+    li {
+        display: inline;
+        margin: 0.7rem;
+        list-style: none;
     }
-  }
+    a {
+        color: $white;
+        :hover {
+            color: $mustard;
+        }
+    }
 }
