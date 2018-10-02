@@ -1,51 +1,42 @@
-@import "../../_variables.scss";
-
+@import '../../_variables.scss';
 .footer {
-    bottom: 0;
-    text-align: center;
-    padding-top: 1.2rem;
-    color: $whiteOpacity09;
-    position: fixed;
-    width: 100%;
-    background-color: $blackOpacity09;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: $whiteOpacity09;
+  position: fixed;
+  width: 100%;
+  background-color: $blackOpacity09;
 }
 
 .section {
-    display: grid;
-    grid-auto-flow: row;
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .logo {
-    grid-row: 1/2;
-    display: block;
+  grid-row: 1/2;
+  display: block;
+  margin: auto;
+  padding-top: 0.4rem;
+}
+
+.imgAnchor {
+  width: 250px;
+  float: left;
 }
 
 .social {
-    grid-row: 2/2;
-    li {
-        display: inline;
-        margin: .7rem;
-        list-style: none;
+  grid-row: 2/2;
+  li {
+    display: inline;
+    margin: 0.7rem;
+    list-style: none;
+  }
+  a {
+    color: $white;
+    :hover {
+      color: $mustard;
     }
-    
-    a {
-        color: $white;
-         :hover {
-            color: $mustard;
-        }
-    }
-}
-
-
-.imgAnchor {
-    width: 250px;
-    float:left;
-    padding: .5rem;
-}
-
-.rights {
-    font-weight: 400;
-    opacity: 0.5!important;
-    grid-row: 2/2;
-    display: block;
+  }
 }

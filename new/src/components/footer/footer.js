@@ -20,7 +20,7 @@ const Footer = () => {
                             <SocialButton type='facebook' url="https://www.facebook.com/M240B"/>
                         </li>
                         <li>
-                            <SocialButton type='twitter' url='https://twitter.com/MustardmanYoung'/>
+                            <SocialButton type='twitter' url='https://twitter.com/aaronyoungster'/>
                         </li>
                         <li>
                             <SocialButton type='github' url='https://github.com/aaron-old'/>

@@ -1,7 +1,16 @@
 // Global application styles that
 // can be applied to individual components.
-
-$white: #fff !important;
+$white : #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black : #000 !default;
 $whiteOpacity01: rgba(255, 255, 255, 0.1) !important;
 $whiteOpacity02: rgba(255, 255, 255, 0.2) !important;
 $whiteOpacity03: rgba(255, 255, 255, 0.3) !important;
@@ -11,72 +20,70 @@ $whiteOpacity07: rgba(255, 255, 255, 0.7) !important;
 $whiteOpacity075: rgba(255, 255, 255, 0.75) !important;
 $whiteOpacity08: rgba(255, 255, 255, 0.8) !important;
 $whiteOpacity09: rgba(255, 255, 255, 0.9) !important;
-
 $blackOpacity09: rgba(0, 0, 0, 0.9) !important;
-
-$mustard: #ffbc00;
-
-
+$mustard: #ffbc00 !default;
 //font sizes
 /**
     Default font size
  */
- $defaultFontSize: fontSize14;
- /**
+
+$defaultFontSize: fontSize14;
+/**
      Percentage font sizes.
   */
- $fontSize70Percent: 70%;
- $fontSize75Percent: 75%;
- $fontSize80Percent: 80%;
- $fontSize85Percent: 85%;
- $fontSize90Percent: 90%;
- $fontSize95Percent: 95%;
- 
- /**
+
+$fontSize70Percent: 70%;
+$fontSize75Percent: 75%;
+$fontSize80Percent: 80%;
+$fontSize85Percent: 85%;
+$fontSize90Percent: 90%;
+$fontSize95Percent: 95%;
+/**
      Rem font sizes
   */
- $fontSize5:   0.35714rem;
- $fontSIze8:   0.57143rem;
- $fontSize9:   0.64286rem;
- $fontSize10:  0.71429rem;
- $fontSize11:  0.78571rem;
- $fontSize12:  0.85714rem;
- $fontSize13:  0.92857rem;
- $fontSize14:  1rem;
- $fontSize15:  1.07143rem;
- $fontSize16:  1.14286rem;
- $fontSize17:  1.21429rem;
- $fontSize18:  1.28571rem;
- $fontSize20:  1.42857rem;
- $fontSize22:  1.57143rem;
- $fontSize23:  1.64286rem;
- $fontSize24:  1.71429rem;
- $fontSize25:  1.78571rem;
- $fontSize26:  1.85714rem;
- $fontSize27:  1.92857rem;
- $fontSize28:  2rem;
- $fontSize30:  2.14286rem;
- $fontSize32:  2.28571rem;
- $fontSize33:  2.35714rem;
- $fontSize35:  2.5rem;
- $fontSize36:  2.57143rem;
- $fontSize38:  2.71429rem;
- $fontSize40:  2.85714rem;
- $fontSize42:  3rem;
- $fontSize45:  3.21429rem;
- $fontSize46:  3.28571rem;
- $fontSize48:  3.42857rem;
- $fontSize50:  3.57143rem;
- $fontSize55:  3.92857rem;
- $fontSize56:  4rem;
- $fontSize60:  4.28571rem;
- $fontSize65:  4.64286rem;
- $fontSize70:  5rem;
- $fontSize75:  5.35714rem;
- $fontSize76:  5.42857rem;
- $fontSize80:  5.71429rem;
- $fontSize86:  6.14286rem;
- $fontSize90:  6.42857rem;
- $fontSize120: 8.57143rem;
- $fontSize200: 14.28571rem;
- $fontSize180: 12.85714rem;
+
+$fontSize5 : 0.35714rem;
+$fontSIze8 : 0.57143rem;
+$fontSize9 : 0.64286rem;
+$fontSize10 : 0.71429rem;
+$fontSize11 : 0.78571rem;
+$fontSize12 : 0.85714rem;
+$fontSize13 : 0.92857rem;
+$fontSize14 : 1rem;
+$fontSize15 : 1.07143rem;
+$fontSize16 : 1.14286rem;
+$fontSize17 : 1.21429rem;
+$fontSize18 : 1.28571rem;
+$fontSize20 : 1.42857rem;
+$fontSize22 : 1.57143rem;
+$fontSize23 : 1.64286rem;
+$fontSize24 : 1.71429rem;
+$fontSize25 : 1.78571rem;
+$fontSize26 : 1.85714rem;
+$fontSize27 : 1.92857rem;
+$fontSize28 : 2rem;
+$fontSize30 : 2.14286rem;
+$fontSize32 : 2.28571rem;
+$fontSize33 : 2.35714rem;
+$fontSize35 : 2.5rem;
+$fontSize36 : 2.57143rem;
+$fontSize38 : 2.71429rem;
+$fontSize40 : 2.85714rem;
+$fontSize42 : 3rem;
+$fontSize45 : 3.21429rem;
+$fontSize46 : 3.28571rem;
+$fontSize48 : 3.42857rem;
+$fontSize50 : 3.57143rem;
+$fontSize55 : 3.92857rem;
+$fontSize56 : 4rem;
+$fontSize60 : 4.28571rem;
+$fontSize65 : 4.64286rem;
+$fontSize70 : 5rem;
+$fontSize75 : 5.35714rem;
+$fontSize76 : 5.42857rem;
+$fontSize80 : 5.71429rem;
+$fontSize86 : 6.14286rem;
+$fontSize90 : 6.42857rem;
+$fontSize120: 8.57143rem;
+$fontSize200: 14.28571rem;
+$fontSize180: 12.85714rem;

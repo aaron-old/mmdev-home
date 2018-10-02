@@ -4,14 +4,15 @@ import Header from '../header/Header';
 import "../../../icons";
 
 import "./layout.scss";
+import layoutStyles from '../../layout.module.scss';
 
 
 const Layout = ({children}) => {
     return(
-        <>
-        <Header></Header>
-        <Footer></Footer>
-        </>
+        <div className={layoutStyles.containerFluid}>
+            <Header></Header>
+            <Footer></Footer>
+        </div>
         
     )
 }
